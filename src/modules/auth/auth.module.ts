@@ -39,6 +39,6 @@ import { TokenService } from './services/token.service';
     AuthAuditLogRepository,
     CurrentUserGuard,
   ],
-  exports: [CurrentUserGuard],
+  exports: [CurrentUserGuard, TokenService],
 })
 export class AuthModule {}
