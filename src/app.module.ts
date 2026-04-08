@@ -10,6 +10,7 @@ import { DatabaseModule } from './database/database.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { HealthModule } from './modules/health/health.module';
 import { PersonnelModule } from './modules/personnel/personnel.module';
+import { TrainingModule } from './modules/training/training.module';
 import { UnitsModule } from './modules/units/units.module';
 
 @Module({
@@ -26,6 +27,7 @@ import { UnitsModule } from './modules/units/units.module';
     AuthModule,
     HealthModule,
     PersonnelModule,
+    TrainingModule,
     UnitsModule,
   ],
 })
