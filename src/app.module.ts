@@ -9,6 +9,7 @@ import { envValidationSchema } from './config/env.validation';
 import { DatabaseModule } from './database/database.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { HealthModule } from './modules/health/health.module';
+import { PersonnelModule } from './modules/personnel/personnel.module';
 import { UnitsModule } from './modules/units/units.module';
 
 @Module({
@@ -24,6 +25,7 @@ import { UnitsModule } from './modules/units/units.module';
     DatabaseModule,
     AuthModule,
     HealthModule,
+    PersonnelModule,
     UnitsModule,
   ],
 })
